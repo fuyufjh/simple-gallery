@@ -1,0 +1,151 @@
+hash: f82c5b5a9f1cdec57c36fbb1a756ad98c0383c676401a7d7bd931b66d05a48ad
+updated: 2017-04-10T20:53:38.741066281+08:00
+imports:
+- name: github.com/fatih/structs
+  version: a720dfa8df582c51dee1b36feabb906bde1588bd
+- name: github.com/geekypanda/httpcache
+  version: a861e841489072001a37959ea83b794065728517
+  subpackages:
+  - cfg
+  - entry
+  - fhttp
+  - fhttp/rule
+  - nethttp
+  - nethttp/rule
+  - ruleset
+  - server
+  - uri
+- name: github.com/golang/protobuf
+  version: 2bba0603135d7d7f5cb73b2125beeda19c09f4ef
+  subpackages:
+  - proto
+- name: github.com/google/go-github
+  version: 6896997c7c9fe603fb9d2e8e92303bb18481e60a
+  subpackages:
+  - github
+- name: github.com/google/go-querystring
+  version: 53e6ce116135b80d037921a7fdd5138cf32d7a8a
+  subpackages:
+  - query
+- name: github.com/gorilla/websocket
+  version: a91eba7f97777409bc2c443f5534d41dd20c5720
+- name: github.com/hashicorp/go-version
+  version: 03c5bf6be031b6dd45afec16b1cf94fc8938bc77
+- name: github.com/imdario/mergo
+  version: d806ba8c21777d504a2090a2ca4913c750dd3a33
+- name: github.com/iris-contrib/formBinder
+  version: 81b6a071e35797b83562caf4b3cad24dc01912dc
+- name: github.com/iris-contrib/lego
+  version: 095d7f6459c501cb15319aa2754afa221b81a3ec
+  subpackages:
+  - acme
+- name: github.com/iris-contrib/letsencrypt
+  version: 1a3e5c619a13b307df3b1b4da7cb7e57d2e156dd
+- name: github.com/kataras/go-errors
+  version: 6fb46ef666f60ce19b5cc73906d531645d5bf8bc
+- name: github.com/kataras/go-fs
+  version: 74ea2e29a8e1e629ed2eb8347424ee9ffb46a69c
+- name: github.com/kataras/go-options
+  version: 23b556c1b935c594ec6d71ff81ead4dbeec3aa8d
+- name: github.com/kataras/go-serializer
+  version: b61f2e8acda9377f80b5bf183a79ea32b9838f9d
+  subpackages:
+  - json
+  - jsonp
+  - markdown
+  - xml
+- name: github.com/kataras/go-sessions
+  version: c245571acd71a448682918c23cafdbe63631a89a
+- name: github.com/kataras/go-template
+  version: a4a986b413e8d88ebd894b4a3e327314069f2439
+  subpackages:
+  - html
+- name: github.com/kataras/iris
+  version: c598e7bee38a260b7173418a33281bf1a9f91aab
+- name: github.com/klauspost/compress
+  version: e80ca55b53e5e6f53deed5c7842e7b7da95e1dc7
+  subpackages:
+  - flate
+  - gzip
+  - zlib
+- name: github.com/klauspost/cpuid
+  version: 09cded8978dc9e80714c4d85b0322337b0a1e5e0
+- name: github.com/microcosm-cc/bluemonday
+  version: e79763773ab6222ca1d5a7cbd9d62d83c1f77081
+- name: github.com/miekg/dns
+  version: dcffd061aaeef4f0ab8369d0443146462b64ea6d
+- name: github.com/russross/blackfriday
+  version: 5f33e7b7878355cd2b7e6b8eefc48a5472c69f70
+- name: github.com/shurcooL/sanitized_anchor_name
+  version: 1dba4b3954bc059efc3991ec364f9f9a35f597d2
+- name: github.com/square/go-jose
+  version: 50df5ca198e569d06795909c091ac0cea62e925a
+  subpackages:
+  - cipher
+  - json
+- name: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- name: github.com/valyala/fasthttp
+  version: fc109d6887b5edb43510d924d14d735f3975fb51
+  subpackages:
+  - fasthttpadaptor
+  - fasthttputil
+  - stackless
+- name: golang.org/x/crypto
+  version: 9ef620b9ca2f82b55030ffd4f41327fa9e77a92c
+  subpackages:
+  - acme
+  - acme/autocert
+  - ocsp
+- name: golang.org/x/net
+  version: d379faa25cbdc04d653984913a2ceb43b0bc46d7
+  subpackages:
+  - context
+  - html
+  - html/atom
+  - publicsuffix
+- name: golang.org/x/time
+  version: f51c12702a4d776e4c1fa9b0fabab841babae631
+  subpackages:
+  - rate
+- name: google.golang.org/appengine
+  version: 56d253d1dd14aa01937e12c73a0971bcfd797ff2
+  subpackages:
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+- name: gopkg.in/iris-contrib/websocket.v5
+  version: bc14117ad25db88dd667f03170dc6db1e5c1f78f
+- name: gopkg.in/kataras/go-websocket.v0
+  version: 92bcac17911011e7fb01a8905b9c19c0402dfc9d
+- name: gopkg.in/kataras/iris.v5
+  version: c598e7bee38a260b7173418a33281bf1a9f91aab
+  subpackages:
+  - utils
+- name: gopkg.in/square/go-jose.v1
+  version: aa2e30fdd1fe9dd3394119af66451ae790d50e0d
+  subpackages:
+  - json
+- name: qiniupkg.com/api.v7
+  version: e4122ada30952518d4745bb9f8dd87bef65a498f
+  subpackages:
+  - auth/qbox
+  - conf
+  - kodo
+  - kodocli
+- name: qiniupkg.com/x
+  version: f512abcf45ab4e2ba0fd4784c57b53d495997d66
+  subpackages:
+  - bytes.v7
+  - bytes.v7/seekable
+  - ctype.v7
+  - log.v7
+  - reqid.v7
+  - rpc.v7
+  - url.v7
+  - xlog.v7
+testImports: []

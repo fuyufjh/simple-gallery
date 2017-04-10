@@ -1,0 +1,9 @@
+package: github.com/fuyufjh/simple-gallery
+import:
+- package: github.com/kataras/iris
+  version: ^5.0.0
+- package: qiniupkg.com/api.v7
+  version: ^7.0.5
+- package: gopkg.in/square/go-jose.v1
+  subpackages:
+  - json
